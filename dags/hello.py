@@ -10,18 +10,18 @@ default_args ={
 
 
 dag = DAG(
-    'Hello World',
+    'Hello_World',
     default_args= default_args,
     schedule= timedelta(days=1)
 )
 task1 = BashOperator(
-    task_id='hellow owrld',
+    task_id='hellow_owrld',
     bash_command='echo "Hello Daemon"',
     dag = dag
 )
 
 task2 = BashOperator(
-    task_id='hellow world',
+    task_id='hellow_world',
     bash_command='echo "Hello World"',
     dag = dag
 )
