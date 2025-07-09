@@ -18,3 +18,6 @@ kubectl exec -it <actual-webserver-pod-name> -n airflow -- airflow users create 
   --role Admin \
   --email admin@example.com \
   --password admin123
+
+  git config --global user.name "CharlesMaponya"
+git config --global user.email "maponyacl@gmail.com"
