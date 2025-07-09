@@ -10,3 +10,10 @@ dags:
     depth: 1
     maxFailures: 0
     subPath: "dags"
+    wait: 60
+    containerName: git-sync
+    uid: 65533
+    
+# Ensure git-sync only runs where needed
+gitSync:
+  enabled: true

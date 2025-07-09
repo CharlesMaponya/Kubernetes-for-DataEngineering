@@ -21,3 +21,5 @@ kubectl exec -it <actual-webserver-pod-name> -n airflow -- airflow users create 
 
   git config --global user.name "CharlesMaponya"
 git config --global user.email "maponyacl@gmail.com"
+
+helm upgrade --install airflow apache-airflow/airflow --namespace airflow --create-namespace -f values.yaml
