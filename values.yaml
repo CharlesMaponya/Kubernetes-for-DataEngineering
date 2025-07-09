@@ -5,7 +5,7 @@ dags:
   gitSync:
     enabled: true
     repo: https://github.com/CharlesMaponya/Kubernetes-for-DataEngineering.git
-    branch: main
+    branch: master
     rev: HEAD
     depth: 1
     maxFailures: 0
