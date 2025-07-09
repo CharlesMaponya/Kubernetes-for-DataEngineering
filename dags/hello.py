@@ -22,7 +22,7 @@ task1 = BashOperator(
 
 task2 = BashOperator(
     task_id='hellow world',
-    bash_command='echo "Hello World"'
+    bash_command='echo "Hello World"',
     dag = dag
 )
 
