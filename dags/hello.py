@@ -16,7 +16,7 @@ dag = DAG(
 )
 task1 = BashOperator(
     task_id='hellow owrld',
-    bash_command='echo "Hello Daemon"'
+    bash_command='echo "Hello Daemon"',
     dag = dag
 )
 
